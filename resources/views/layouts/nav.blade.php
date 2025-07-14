@@ -12,37 +12,22 @@
            
 
 
-            @Auth
+         {{--    @Auth --}}
                 <li class="nav-item">
-                    <a class="nav-link" href="">Report</a>   
+                    <a class="nav-link" href="/companies">Companies</a>   
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="">Transactions</a>
-                </li>
-
-                <li class="nav-item active">
-                    <a class="nav-link" href="">Add transaction </a>
-                </li>
-                
-
-                <li class="nav-item">
-                    <a class="nav-link" href="">Budgets</a>   
+                    <a class="nav-link" href="/companies/add">Add Company</a>   
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="">Add Budget</a>   
+                    <a class="nav-link" href="">Employees</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="">Categories</a>   
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="">Add Category</a> 
-                </li>
+     
       
-            @endauth
+          {{--   @endauth --}}
 
             </ul>
 

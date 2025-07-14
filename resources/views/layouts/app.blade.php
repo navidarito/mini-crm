@@ -11,11 +11,9 @@
 
     <title>Mini-CRM</title>
   </head>
-  <body>
+  <body class="bg-secondary">
     @include('layouts.nav')
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    
     <br>
     @yield('content')
 
